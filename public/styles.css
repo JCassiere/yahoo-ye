@@ -34,7 +34,7 @@ body {
 .headlines {
 	box-sizing: content-box;
   color: #72298C;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   padding: 20px;
   font-weight: bold;
 }
