@@ -22,8 +22,12 @@ body {
 }
 
 .big-ye {
+	/*flex-basis: 250%;*/
   height: 100%;
   width: auto;
+  /*background-image: url("welcome-to-heartbreak.jpg");*/
+  /*background-size: 100%;*/
+  /*background-repeat: no-repeat;*/
 }
 
 .kanye-pic {
@@ -31,6 +35,17 @@ body {
 	width: auto;
 }
 
+./*kanye-overlay {
+	top: 50px;
+	height: 50%;
+	width: auto;
+	background: purple;
+}*/
+
+/*.weather = {
+	border-color: purple
+}
+*/
 .headlines {
 	box-sizing: content-box;
   color: #72298C;
