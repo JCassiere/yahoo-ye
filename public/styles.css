@@ -27,7 +27,7 @@ body {
 	flex-shrink: 1.1;
   height: auto;
   width: auto;
-  background-image: url("welcome-to-heartbreak.jpg");
+  background-image: url("./welcome-to-heartbreak.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .mini-ad {
-	background-image: url("mini-ad.jpg");
+	background-image: url("./mini-ad.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   width: auto;
