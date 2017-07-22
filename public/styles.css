@@ -1,0 +1,78 @@
+/*
+weather - 86419C
+YAHOO! - 6E2D86
+AAPL - A969bf
+YHOO - 9d5bb5
+Wymeia - 86419C
+Stop by the pharmacy - 9D5BB5
+
+
+Citations - cbb1d5
+Footer - fdf2ff or fcf1ff
+*/
+
+body {
+	display: flex;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+}
+
+.big-ye {
+  height: 100%;
+  width: auto;
+}
+
+.kanye-pic {
+	height: 100%;
+	width: auto;
+}
+
+.headlines {
+	box-sizing: content-box;
+  color: #72298C;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.latest-news {
+	font-size: 0.5rem;
+}
+
+.headlines header {
+	padding: 25px 0px;
+}
+
+.headlines h1 {
+	margin-bottom: 0px;
+	font-size: 1.2rem;
+}
+
+.headlines ul {
+	font-size: 0.55rem;
+	letter-spacing: 0.4px;
+	padding-left: 20px;
+}
+
+.headlines ul li {
+	margin: 5px auto;
+	/*padding-left: 0px;*/
+}
+
+.headlines cite {
+	display: block;
+	color: #cbc7cc;
+	font-size: 0.5rem;
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+.social-media-links {
+  padding: 10px;
+  background-color: #F7EFF9;
+}
