@@ -203,12 +203,11 @@ body {
 
 .headlines ul li {
 	margin: 5px auto;
-	/*padding-left: 0px;*/
 }
 
 .headlines cite {
 	display: block;
-	color: #cbc7cc;
+	color: #cbb1d5;
 	font-size: 0.5rem;
 	font-weight: normal;
 	font-style: normal;
