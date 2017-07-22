@@ -54,8 +54,8 @@ body {
 
 .headlines ul {
 	font-size: 0.55rem;
-	letter-spacing: 0.4px;
-	padding-left: 20px;
+/*	letter-spacing: 0.4px;
+*/	padding-left: 20px;
 }
 
 .headlines ul li {
