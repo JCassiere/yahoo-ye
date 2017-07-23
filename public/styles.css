@@ -166,7 +166,7 @@ body {
 	flex-direction: column;
 	align-content: space-around;
 	justify-content: flex-start;
-	flex-basis: 75em;
+	flex-basis: 50em;
 /*	flex-shrink: 3;
 	flex-grow: 3;
 */	/*width: auto;
