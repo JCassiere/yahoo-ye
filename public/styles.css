@@ -9,9 +9,8 @@ body {
 	font-family: avenir, "avenir next", helvetica, arial, sans-serif;
 }
 
-.big-ye {
+#big-ye {
 	flex-basis: 200rem;
-	/*flex-shrink: 1.1;*/
   height: auto;
   width: auto;
   background-image: url("welcome-to-heartbreak.jpg");
@@ -19,12 +18,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.kanye-pic {
+/*#kanye-pic {
 	height: 100%;
 	width: auto;
-}
+}*/
 
-.kanye-overlay {
+#kanye-overlay {
 	display: flex;
 	flex-direction: column;
 	box-sizing: content-box;
@@ -34,7 +33,7 @@ body {
 	color: rgba(255, 255, 255, 0.4);
 }
 
-.weather, .yahoo-search, .aapl, .yhoo-stock, .wymeia, .pharmacy {
+#weather, #yahoo-search, #aapl, #yhoo-stock, #wymeia, #pharmacy {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -43,55 +42,55 @@ body {
 	padding-left: 20px;
 }
 
-.weather {
+#weather {
 	background-color: #86419C;
 	width: 20%;
 	font-size: 0.55rem;
 }
 
-.partly-cloudy {
+#partly-cloudy {
 	display: inline-block;
 	transform: scale(0.75, 0.75) translate(-18%);
 }
 
-.temperature {
+#temperature {
 	font-size: 1rem;
 	margin-right: 4%;
 	line-height: 100%;
 	transform: translate(-20%);
 }
 
-.yahoo-search {
+#yahoo-search {
 	background-color: #6E2D86;
 	width: 50%;
 	height: 7.25%;
 }
 
-.yahoo-search input {
+#yahoo-search input {
   width: 60%;
   height: 54%;
   transform: translate(-9%);
 }
 
-.yahoo-logo {
+#yahoo-logo {
 	transform: scale(0.75, 0.75) translate(-18%);
 	margin-left: 0px;
 }
 
-.magnifying-glass-purple {
+#magnifying-glass-purple {
 	transform: scale(0.7, 0.7) translate(-50%);
 }
 
-.aapl, .yhoo-stock {
+#aapl, #yhoo-stock {
 	width: 24%;
 	font-weight: bold;
 }
 
-.aapl {
+#aapl {
 	background-color: #A969bf;
 }
 
-.yhoo-stock {
+#yhoo-stock {
 	background-color: #9d5bb5;
 }
 
@@ -110,13 +109,13 @@ body {
 	text-align: right;
 }
 
-.wymeia {
+#wymeia {
 	background-color: #86419C;
 	width: 22.5%;
 	height: 8%;
 }
 
-.pharmacy {
+#pharmacy {
 	background-color: #9D5BB5;
 	width: 17.5%;
 	height: 7%;
@@ -131,24 +130,21 @@ body {
 	margin-right: 15px;
 }
 
-.empty-space {
+#empty-space {
 	height: 25%;
 }
 
-.mini-ad {
-/*	background-image: url("mini-ad.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;*/
+#mini-ad {
   width: auto;
   height: 9.3%;
 }
 
-.mini-ad img {
+#mini-ad img {
 	max-width: 100%;
 	max-height: 100%;
 }
 
-.ad-words {
+#ad-words {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -161,48 +157,44 @@ body {
 	margin-top: 0px;
 }
 
-.headlines {
+#headlines {
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
 	justify-content: flex-start;
 	flex-basis: 50em;
 	flex-grow: 5;
-/*	flex-shrink: 3;
-	flex-grow: 3;
-*/	/*width: auto;
-	height: auto*/;
 	box-sizing: content-box;
   padding: 20px;
   font-weight: bold;
 	color: #72298C;
 }
 
-.latest-news {
+#latest-news {
 	margin: 0px;
 	font-size: 0.5rem;
 }
 
-.headlines header {
+#headlines header {
 	box-sizing: content-box;
 	padding: 25px 0px;
 }
 
-.headlines h1 {
+#headlines h1 {
 	margin-bottom: 0px;
 	font-size: 1.2rem;
 }
 
-.headlines ul {
+#headlines ul {
 	font-size: 0.55rem;
 	padding-left: 15px;
 }
 
-.headlines ul li {
+#headlines ul li {
 	margin: 5px auto;
 }
 
-.headlines cite {
+#headlines cite {
 	display: block;
 	color: #cbb1d5;
 	font-size: 0.5rem;
@@ -210,7 +202,7 @@ body {
 	font-style: normal;
 }
 
-.social-media-links {
+#social-media-links {
 	display: flex;
   align-items: center;
   flex-direction: column;
@@ -221,7 +213,7 @@ body {
   background-color: #fdf2ff;
 }
 
-.social-media-container, .settings-icon-container {
+.social-media-container, #settings-icon-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -230,7 +222,7 @@ body {
 	padding: auto 3.5px;
 }
 
-.profile-pic-container {
+#profile-pic-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -239,7 +231,7 @@ body {
 	border-left: 1px solid #72298C;
 }
 
-.settings-icon-container {
+#settings-icon-container {
 	align-items: flex-end;
   height: 50%;
   padding-bottom: 15px;
