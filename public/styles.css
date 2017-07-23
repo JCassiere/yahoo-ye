@@ -10,7 +10,7 @@ body {
 }
 
 .big-ye {
-	flex-basis: 220rem;
+	flex-basis: 200rem;
 	/*flex-shrink: 1.1;*/
   height: auto;
   width: auto;
@@ -166,7 +166,7 @@ body {
 	flex-direction: column;
 	align-content: space-around;
 	justify-content: flex-start;
-	flex-basis: 50em;
+	flex-basis: 75em;
 /*	flex-shrink: 3;
 	flex-grow: 3;
 */	/*width: auto;
