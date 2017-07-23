@@ -167,6 +167,7 @@ body {
 	align-content: space-around;
 	justify-content: flex-start;
 	flex-basis: 50em;
+	flex-grow: 5;
 /*	flex-shrink: 3;
 	flex-grow: 3;
 */	/*width: auto;
