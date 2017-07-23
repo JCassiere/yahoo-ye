@@ -10,8 +10,8 @@ body {
 }
 
 .big-ye {
-	flex-basis: 250%;
-	flex-shrink: 1.1;
+	flex-basis: 220rem;
+	/*flex-shrink: 1.1;*/
   height: auto;
   width: auto;
   background-image: url("welcome-to-heartbreak.jpg");
@@ -166,7 +166,11 @@ body {
 	flex-direction: column;
 	align-content: space-around;
 	justify-content: flex-start;
-	flex-shrink: 1.1;
+	flex-basis: 50em;
+/*	flex-shrink: 3;
+	flex-grow: 3;
+*/	/*width: auto;
+	height: auto*/;
 	box-sizing: content-box;
   padding: 20px;
   font-weight: bold;
