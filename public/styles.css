@@ -190,7 +190,7 @@ a {
 	margin: 5px auto;
 }
 
-#headlines a:link, #headlines a:visit {
+#headlines a, #headlines a:link, #headlines a:visit {
 	color: #72298C;
 }
 
